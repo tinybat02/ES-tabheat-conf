@@ -48125,32 +48125,6 @@ function (_super) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "weekdays", function() { return weekdays; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "mappingWeekToArrayIndex", function() { return mappingWeekToArrayIndex; });
-// export const hours = [
-//   // '00',
-//   // '01',
-//   // '02',
-//   // '03',
-//   // '04',
-//   // '05',
-//   // '06',
-//   // '07',
-//   // '08',
-//   '09',
-//   '10',
-//   '11',
-//   '12',
-//   '13',
-//   '14',
-//   '15',
-//   '16',
-//   '17',
-//   '18',
-//   '19',
-//   // '20',
-//   // '21',
-//   // '22',
-//   // '23',
-// ];
 var weekdays = [
 /* 'Sun',  */
 'Sat', 'Fri', 'Thu', 'Wed', 'Tue', 'Mon'];
