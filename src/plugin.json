@@ -1,0 +1,21 @@
+{
+  "type": "panel",
+  "name": "ES TabHeat Conf",
+  "id": "id-configurable-table-heatmap",
+  "dataFormats": ["table"],
+  "info": {
+    "description": "ES TabHeat Conf",
+    "author": {
+      "name": "Nam Le"
+    },
+    "keywords": [],
+    "screenshots": [],
+    "version": "%VERSION%",
+    "updated": "%TODAY%"
+  },
+
+  "dependencies": {
+    "grafanaVersion": "6.3.x",
+    "plugins": []
+  }
+}
