@@ -47892,11 +47892,12 @@ var MainEditor = function MainEditor(_a) {
   var handleChange = function handleChange(e) {
     var _a = e.target,
         name = _a.name,
-        value = _a.value;
+        value = _a.value,
+        type = _a.type;
     setInputs(function (prevState) {
       var _a;
 
-      return Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"])(Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"])({}, prevState), (_a = {}, _a[name] = value, _a));
+      return Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"])(Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"])({}, prevState), (_a = {}, _a[name] = type == 'number' ? parseInt(value) : value, _a));
     });
   };
 
