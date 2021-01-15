@@ -48128,15 +48128,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "mappingWeekToArrayIndex", function() { return mappingWeekToArrayIndex; });
 var weekdays = [
 /* 'Sun',  */
-'Sat', 'Fri', 'Thu', 'Wed', 'Tue', 'Mon'];
+'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 var mappingWeekToArrayIndex = {
   // Sun: 0,
-  Sat: 0,
-  Fri: 1,
-  Thu: 2,
-  Wed: 3,
-  Tue: 4,
-  Mon: 5
+  Mon: 0,
+  Tue: 1,
+  Wed: 2,
+  Thu: 3,
+  Fri: 4,
+  Sat: 5
 };
 
 /***/ }),

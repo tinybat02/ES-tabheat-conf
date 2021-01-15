@@ -1,11 +1,11 @@
-export const weekdays = [/* 'Sun',  */ 'Sat', 'Fri', 'Thu', 'Wed', 'Tue', 'Mon'];
+export const weekdays = [/* 'Sun',  */ 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 
 export const mappingWeekToArrayIndex = {
   // Sun: 0,
-  Sat: 0,
-  Fri: 1,
-  Thu: 2,
-  Wed: 3,
-  Tue: 4,
-  Mon: 5,
+  Mon: 0,
+  Tue: 1,
+  Wed: 2,
+  Thu: 3,
+  Fri: 4,
+  Sat: 5,
 };
